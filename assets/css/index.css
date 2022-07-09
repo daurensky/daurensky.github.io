@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    padding: 3rem 0;
+    padding: 4rem 0;
     min-width: 100vw;
     min-height: 100vh;
     background-color: #5eff68;
@@ -34,15 +34,19 @@ h6 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
     font-size: 34px;
     font-weight: 400;
     margin-bottom: 1.5rem;
+}
+
+h2 span {
+    font-family: inherit;
 }
 
 h3 {
@@ -70,11 +74,22 @@ a {
 
 .contacts .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
     max-width: 1000px;
 }
 
 .about-me {
     text-align: justify;
+}
+
+.with-icon {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.with-icon i {
+    font-size: 1.5rem;
 }
