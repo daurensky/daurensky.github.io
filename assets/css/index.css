@@ -1,95 +1,63 @@
-:root {
-    --ff-default: 'Albert Sans', sans-serif;
-    --ff-heading: 'Libre Baskerville', serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--ff-default);
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 4rem 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: #5eff68;
-    background-size: cover;
-    background-position: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    display: block;
-    font-family: var(--ff-heading);
-}
-
 h1 {
-    font-size: 60px;
-    font-weight: 400;
-    margin-bottom: 2rem;
+    margin: 0 0 1rem;
 }
 
 h2 {
-    font-size: 34px;
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-}
-
-h2 span {
-    font-family: inherit;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-p {
-    line-height: 1.75rem;
-    margin-bottom: 2rem;
-}
-
-a {
-    color: #000;
-    font-weight: bold;
-}
-
-.container {
-    max-width: 1300px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-.contacts .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-    max-width: 1000px;
+    margin-bottom: 0.5rem;
 }
 
 .about-me {
+    color: var(--color-secondary);
     text-align: justify;
+    margin: 3rem 0 4rem;
 }
 
-.with-icon {
-    display: inline-flex;
-    flex-wrap: wrap;
+.about-me a {
+    color: var(--color-secondary);
+}
+
+.contacts {
+    display: flex;
     align-items: center;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
-.with-icon i {
+.contact {
+    text-decoration: none;
     font-size: 1.5rem;
+    background: rgba(var(--selected-color), 0.05);
+    color: rgb(var(--selected-color));
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 300ms ease, border-radius 300ms ease;
+}
+
+.contact:hover {
+    background: rgba(var(--selected-color), 0.15);
+    border-radius: 1rem;
+}
+
+.poster {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+
+.skill-row {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: var(--color-secondary);
+}
+
+.skill-row i {
+    font-size: 1.5rem;
+    margin-left: 2rem;
 }

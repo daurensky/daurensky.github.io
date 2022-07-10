@@ -1,0 +1,67 @@
+:root {
+    --ff-default: 'Albert Sans', sans-serif;
+    --ff-heading: 'Libre Baskerville', serif;
+
+    --color-primary: rgb(255, 255, 255);
+    --color-secondary: rgba(255, 255, 255, .8);
+    --color-muted: rgba(255, 255, 255, .38);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--ff-default);
+}
+
+body {
+    margin: 0;
+    background: #121212;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-heading);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.75rem;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+}
+
+span {
+    font-family: inherit;
+}
+
+section {
+    margin: 75px 0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
