@@ -1,0 +1,26 @@
+[
+  {
+    "name": "PHP",
+    "icon": "/img/php.png"
+  },
+  {
+    "name": "Laravel",
+    "icon": "/img/laravel.png"
+  },
+  {
+    "name": "Go",
+    "icon": "/img/go.png"
+  },
+  {
+    "name": "Javascript",
+    "icon": "/img/js.png"
+  },
+  {
+    "name": "Typescript",
+    "icon": "/img/ts.png"
+  },
+  {
+    "name": "React",
+    "icon": "/img/react.png"
+  }
+]
