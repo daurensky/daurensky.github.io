@@ -1,10 +1,7 @@
 {
   "name": "daurensky",
   "version": "1.0.0",
-  "homepage": "https://daurensky.github.io",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
