@@ -22,5 +22,13 @@
   {
     "name": "React",
     "icon": "/img/react.png"
+  },
+  {
+    "name": "Git",
+    "icon": "/img/git.png"
+  },
+  {
+    "name": "Docker",
+    "icon": "/img/docker.png"
   }
 ]

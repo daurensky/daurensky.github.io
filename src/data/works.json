@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Decathlon Technology",
+    "from": "2022-06-21",
+    "to": "now",
+    "position": "Backend developer",
+    "details": "Development and support of a service for managing a catalog of goods in partner systems. Automation of product manipulation.",
+    "achievements": [
+      "Docker",
+      "Tailwindcss",
+      "PHP in-depth",
+      "React in-depth",
+      "Typescript in-depth",
+      "Python basics",
+      "Nodejs basics",
+      "Golang basics"
+    ],
+    "logo": "/img/dkt.png",
+    "link": ""
+  },
+  {
+    "name": "Pavlodar pedagogical university",
+    "from": "2021-04-15",
+    "to": "2022-06-19",
+    "position": "Fullstack developer",
+    "details": "Development of a student's cabinet, database design. Development and maintenance of the site for the division of the organization.",
+    "achievements": ["Laravel", "PHP OOP", "Design patterns"],
+    "logo": "/img/ppu.png"
+  },
+  {
+    "name": "BFGroup",
+    "from": "2021-01-23",
+    "to": "2021-03-05",
+    "position": "Web developer",
+    "details": "Creation of websites to order and support of an existing food delivery project.",
+    "achievements": ["React basics", "Typescript basics", "PHP versions compatibility"],
+    "logo": "/img/bfg.png"
+  },
+  {
+    "name": "Innovative eurasian university",
+    "from": "2019-12-19",
+    "to": "2021-01-22",
+    "position": "Web developer (intern)",
+    "details": "Creating plugins for moodle. Development of a student's cabinet, database design, database design.",
+    "achievements": ["HTML", "CSS", "JS Basics", "PHP Basics"],
+    "logo": "/img/ineu.png"
+  }
+]
