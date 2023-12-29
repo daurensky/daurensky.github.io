@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --cname daurensky.dev",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",

@@ -1,4 +1,3 @@
-import {ReactNode} from 'react'
 import {AboutMeOutput} from './about-me'
 import {HelpOutput} from './help'
 import {MemoryGameFileContent, MemoryGameOutput} from './memory-game'
@@ -6,7 +5,7 @@ import {SecretOutput} from './secret'
 
 type OutputProxyProps = {
   output: string
-  fallback: ReactNode
+  fallback: string
 }
 
 export const OutputProxy = ({output, fallback}: OutputProxyProps) => {
@@ -20,5 +19,5 @@ export const OutputProxy = ({output, fallback}: OutputProxyProps) => {
 
   const Component = outputs[output]
 
-  return Component ? <Component /> : fallback
+  return Component ? <Component /> : <p>{fallback}</p>
 }
